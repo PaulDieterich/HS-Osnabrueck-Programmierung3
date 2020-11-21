@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -27,11 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13a8dcd5-e3ad-47c2-9023-87392f1d78e4" name="Default Changelist" comment="" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="9cfede02-e7d3-469e-9f8c-24e5ec029401" name="Default Changelist" comment="" />
+>>>>>>> 0e085cefbec95c88f05d5348d9ceb34f97460d18
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
@@ -53,16 +59,83 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="de.hsos.ab03" />
     </key>
+=======
+  <component name="ProjectId" id="1jp2FUjAAdtqvfJoqN06MaYwbPB" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+>>>>>>> 0e085cefbec95c88f05d5348d9ceb34f97460d18
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="de.hsos.ab03.Main" />
+<<<<<<< HEAD
+=======
+      <module name="ab03" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+>>>>>>> 0e085cefbec95c88f05d5348d9ceb34f97460d18
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ab03" />
       <option name="VM_PARAMETERS" />
@@ -72,10 +145,20 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+=======
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> 0e085cefbec95c88f05d5348d9ceb34f97460d18
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="ab03" />
       <option name="filePath" />
@@ -175,4 +258,17 @@
     </state>
     <state x="490" y="188" width="992" height="737" key="SettingsEditor/53.27.1867.1053@53.27.1867.1053" timestamp="1604484162086" />
   </component>
+=======
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cfede02-e7d3-469e-9f8c-24e5ec029401" name="Default Changelist" comment="" />
+      <created>1604486609936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604486609936</updated>
+    </task>
+    <servers />
+  </component>
+>>>>>>> 0e085cefbec95c88f05d5348d9ceb34f97460d18
 </project>
