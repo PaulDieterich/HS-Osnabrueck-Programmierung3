@@ -4,11 +4,6 @@ import de.hsos.ab04.util.Interaktionsbrett;
 
 public class Rechteck {
 
-        private class Punkt{
-            public int x;
-            public int y;
-            Punkt(int x, int y){}
-        }
         private int x;
         private int y;
         private int hoehe;
