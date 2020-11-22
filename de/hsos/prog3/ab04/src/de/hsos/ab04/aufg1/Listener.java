@@ -1,4 +1,4 @@
-package de.hsos.ab04;
+package de.hsos.ab04.aufg1;
 
 import de.hsos.ab04.util.Interaktionsbrett;
 

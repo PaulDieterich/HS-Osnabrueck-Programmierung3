@@ -1,4 +1,4 @@
-package de.hsos.ab04;
+package de.hsos.ab04.aufg1;
 
 import de.hsos.ab04.util.Interaktionsbrett;
 
@@ -8,7 +8,7 @@ public class Korb {
     private int laenge;
 
 
-    Korb(){}
+    public Korb(){}
 
     public void setX(int x) {
         this.x = x;

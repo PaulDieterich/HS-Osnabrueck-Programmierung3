@@ -1,15 +1,13 @@
-package de.hsos.ab04;
+package de.hsos.ab04.aufg1;
 
 import de.hsos.ab04.util.Interaktionsbrett;
-
-import java.util.SortedMap;
 
 public class Ball extends Listener{
     private int x;
     private int y;
     private int radius;
     public String name = "ball-event";
-    Ball(){
+    public Ball(){
         super();
     }
 
