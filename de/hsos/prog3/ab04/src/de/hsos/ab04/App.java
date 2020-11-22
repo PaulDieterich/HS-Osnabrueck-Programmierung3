@@ -1,5 +1,7 @@
 package de.hsos.ab04;
 
+import de.hsos.ab04.aufg1.Ball;
+import de.hsos.ab04.aufg1.Korb;
 import de.hsos.ab04.util.Interaktionsbrett;
 
 public class App {
@@ -14,7 +16,6 @@ public class App {
         Korb k = new Korb();
         b.darstellen(ib);
         k.darstellen(ib);
-        b.drageTime(ib);
 
 
 
