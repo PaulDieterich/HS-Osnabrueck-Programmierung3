@@ -1,2 +1,4 @@
-package de.hsos.ab04.aufg2;public class Spielfeld {
+package de.hsos.ab04.aufg2;
+
+public class Spielfeld {
 }

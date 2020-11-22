@@ -1,2 +1,4 @@
-package de.hsos.ab04.aufg2;public class PongSpiel {
+package de.hsos.ab04.aufg2;
+
+public class PongSpiel {
 }
