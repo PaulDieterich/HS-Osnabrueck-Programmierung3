@@ -4,16 +4,22 @@ import de.hsos.ab04.util.Interaktionsbrett;
 
 public class Rechteck {
 
-        private int x;
-        private int y;
-        private int hoehe;
-        private int breite;
-        Rechteck(int m_x, int m_y, int m_hoehe, int m_breite) {
+    private int x;
+    private int y;
+    private int hoehe;
+    private int breite;
+    Rechteck(int m_x, int m_y, int m_hoehe, int m_breite) {
             setX(x);
             setY(y);
             setHoehe(m_hoehe);
             setBreite(m_breite);
-        }
+    }
+    Rechteck(int m_hoehe, int m_breite) {
+        setX(5);
+        setY(5);
+        setHoehe(m_hoehe);
+        setBreite(m_breite);
+    }
 
         public void setX(int x) {
             if(x < 5){
