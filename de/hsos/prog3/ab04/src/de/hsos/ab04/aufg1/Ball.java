@@ -3,12 +3,26 @@ package de.hsos.ab04.aufg1;
 import de.hsos.ab04.util.Interaktionsbrett;
 
 public class Ball extends Listener{
-    private int x;
-    private int y;
-    private int radius;
-    public String name = "ball-event";
-    public Ball(){
-        super();
+    int radius = 20;
+    int range_MIN = 10;
+    int range_MAX = 300;
+
+    //Das Objekt übergeben, das die Call-Back Methoden enthält.
+    public Ball() {
+
+    }
+
+
+    /**
+     * Methode zum Darstellen des Balls. Die Methode updated nach einmaliger
+     * Übergabe seines Objekts an das Interaktionsbrett die Darstellung kontinuierlich
+     */
+    public void darstellen(Interaktionsbrett ib) {
+        setX(ib.zufall(range_MIN, range_MAX));
+        setY(ib.zufall(range_MIN, range_MAX));
+        //Event-Objects werden mit einem eindeutigen Schlüssel versehen
+        //In diesem Fall Name, Nummern (ID) funktionieren auch
+        ib.neuerKreis(this, this.getClass().getName(), x, y, radius);
     }
 
     public void setX(int x) {
@@ -17,10 +31,7 @@ public class Ball extends Listener{
 
     public void setY(int y) {
         this.y = y;
-    }
 
-    public void setRadius(int radius) {
-        this.radius = radius;
     }
 
     public int getX() {
@@ -34,13 +45,4 @@ public class Ball extends Listener{
     public int getRadius() {
         return radius;
     }
-
-    public void darstellen(Interaktionsbrett ib){
-        setX(ib.zufall(10, 100));
-        setY(ib.zufall(10, 100));
-        setRadius(10);
-
-        ib.neuerKreis(this,name,x,y, radius);
-    }
-
 }

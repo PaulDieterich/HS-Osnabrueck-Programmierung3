@@ -1,5 +1,6 @@
 package de.hsos.ab04;
 
+import de.hsos.ab04.aufg1.Gamemaster;
 import de.hsos.ab04.util.Interaktionsbrett;
 //fuer aufgabe1
 import de.hsos.ab04.aufg1.Ball;
@@ -12,16 +13,13 @@ public class App {
     public static void main(String[] args) {
 	// write your code here
 
+        /*
         PongSpiel spiel = new PongSpiel();
         spiel.spielen();
+        */
 
-        /*
-        Ball b = new Ball();
-        Korb k = new Korb();
-        b.darstellen(ib);
-        k.darstellen(ib);
+        Gamemaster basketball = new Gamemaster();
 
-*/
 
 
     }

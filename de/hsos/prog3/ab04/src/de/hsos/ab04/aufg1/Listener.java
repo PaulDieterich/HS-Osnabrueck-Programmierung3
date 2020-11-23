@@ -3,7 +3,7 @@ package de.hsos.ab04.aufg1;
 import de.hsos.ab04.util.Interaktionsbrett;
 
 public class Listener {
-
+    int x,y;
     Listener(){
     }
 
@@ -18,6 +18,9 @@ public class Listener {
     }
     public Boolean mitMausLosgelassen(String name, int x, int y){
         System.out.println("mitMausLosgelassen");
+        System.out.println("X:" + x + ", Y: " + y);
+        this.x = x;
+        this.y= y;
         return true;
     }
 
