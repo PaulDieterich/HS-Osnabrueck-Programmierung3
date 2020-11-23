@@ -6,34 +6,48 @@ public class PongSpiel {
     final int FPMS = 17;
     Spielfeld spielfeld;
 
+    Ball ball;
+
     Spieler spielerLinks;
     Spieler spielerRechts;
 
     Interaktionsbrett ib;
 
 
-    PongSpiel(){
+    public PongSpiel(){
         ib = new Interaktionsbrett();
         ib.willTasteninfo(this);
         startAustellung();
+        initialeAufstellung();
     }
 
 
     private void startAustellung(){
         spielfeld = new Spielfeld();
-        spielerLinks = new Spieler(spielfeld,spielfeld.spielfeldflaeche.mitteInX(),spielerLinks.schlaeger.getBreite());
-        spielerRechts = new Spieler(spielfeld, spielfeld.spielfeldflaeche.mitteInX(), spielfeld.spielfeldflaeche.getBreite() - spielerRechts.schlaeger.getBreite());
+        spielerLinks = new Spieler(spielfeld, 10, 5);
+        spielerRechts = new Spieler(spielfeld, 50, 5);
     }
+
+    //TODO: muss noch angepasst und überarbeitet weden. Nach ange von Aufg2.6
+    private void initialeAufstellung(){
+        Rechteck b = new Rechteck(spielerLinks.schlaeger.mitteInX() + 10 ,spielerLinks.schlaeger.mitteInY() ,5,5);
+        ball = new Ball(b,4,1);
+    }
+
     public void spielen(){
         int differenz = 0;
-        while (true){
-            //Thread.sleep();
-            ib.abwischen();
-            spielfeld.darstellen(ib);
-            spielerLinks.DrawSchlaeger(ib);
-            spielerRechts.DrawSchlaeger(ib);
 
-        }
+            while (true) {
+               // Thread.sleep(System.currentTimeMillis() / FPMS);
+                ib.abwischen();
+                ball.darstellen(ib);
+                ball.bewegen((int) System.currentTimeMillis() / FPMS);
+                spielfeld.darstellen(ib);
+                spielerLinks.DrawSchlaeger(ib);
+                spielerRechts.DrawSchlaeger(ib);
+                differenz = (int) System.currentTimeMillis();
+            }
+
     }
     public void tasteGedrueckt(String s){
         switch (s){
@@ -58,5 +72,6 @@ public class PongSpiel {
                  break;
         }
     }
+
     
 }

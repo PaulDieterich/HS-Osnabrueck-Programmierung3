@@ -2,6 +2,8 @@ package de.hsos.ab04.aufg2;
 
 import de.hsos.ab04.util.Interaktionsbrett;
 
+import java.sql.SQLOutput;
+
 public class Spieler {
 
     Spielfeld spielfeld;
@@ -20,11 +22,13 @@ public class Spieler {
     }
     public void aufwaerts(){
         if(schlaeger.oben() < spielfeld.getSpielfeldflaeche().oben()){
+            System.out.println("Schlaeger nach oben");
             schlaeger.verschiebeNach(0,5);
         }
     }
     public void abwaerts(){
         if(schlaeger.unten() < spielfeld.getSpielfeldflaeche().unten()){
+            System.out.println("Schlaeger nach unten");
             schlaeger.verschiebeNach(0,-5);
         }
     }
