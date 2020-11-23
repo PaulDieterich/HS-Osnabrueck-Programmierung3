@@ -33,8 +33,29 @@ public class PongSpiel {
             spielerLinks.DrawSchlaeger(ib);
             spielerRechts.DrawSchlaeger(ib);
 
-
-
+        }
+    }
+    public void tasteGedrueckt(String s){
+        switch (s){
+            case "a":
+                spielerLinks.aufwaerts();
+                break;
+            case "y":
+                spielerLinks.abwaerts();
+                break;
+            case "Oben" :
+                spielerRechts.aufwaerts();
+                break;
+            case "Unten" :
+                spielerLinks.abwaerts();
+                break;
+            case "s" :
+                spielen();
+                break;
+            case "e":
+                System.exit(1);
+            default:
+                 break;
         }
     }
     
