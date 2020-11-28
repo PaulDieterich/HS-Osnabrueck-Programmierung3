@@ -1,4 +1,0 @@
-#Wed Nov 25 10:23:31 CET 2020
-base.0=E\:\\Semester4\\HS-Osnabrueck-Programmierung3\\de\\hsos\\prog3\\ab05\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

@@ -1,4 +1,0 @@
-de/hsos/prog3/ab05/MainActivity.java
- de.hsos.prog3.ab05.MainActivity
-de/hsos/prog3/ab05/BuildConfig.java
- de.hsos.prog3.ab05.BuildConfig
