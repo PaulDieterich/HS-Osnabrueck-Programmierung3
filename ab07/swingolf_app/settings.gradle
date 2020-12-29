@@ -1,0 +1,2 @@
+rootProject.name = "SwinGolf-App"
+include ':app'

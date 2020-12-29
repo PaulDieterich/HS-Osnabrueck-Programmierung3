@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SwinGolf-App</string>
+    <string name="app_sup_name"> SUPER GEILE MINIGOLF APP</string>
+    <string name="btn_new_game"> Start ein neues Spiel</string>
+
+
+    <!-- Createing a game-->
+    <string name="creating_a_Game"> Erstelle ein neues Spiel</string>
+    <string name="golfcourse_name"> Name des Golf kurses</string>
+    <string name="count_of_Tracks"> Anzahl der Strecken</string>
+    <string name="name_player_1"> Name des 1. Spielers</string>
+    <string name="name_player_2"> Name des 2. Spielers</string>
+    <string name="btn_craete_game"> Starten </string>
+</resources>
